@@ -13,8 +13,8 @@ function AddTodo({updateList}){
                 />
             <button onClick={() => {
                 updateList(inputText);
-                setFinished('');
-            }}>Add</button>
+                setInputText('');
+                }}>Add</button>
         </div>
     )
 }
